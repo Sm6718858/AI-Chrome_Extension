@@ -34,7 +34,7 @@
 ### 🔧 Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tts-summary-extension.git
+git clone https://github.com/Sm6718858/AI-Chrome_Extension.git
 🔧 Load into Chrome
 - Visit: chrome://extensions/
 - Toggle Developer Mode ON (top-right)
