@@ -16,6 +16,10 @@
 - 🧩 Lightweight, Fast & Privacy-friendly
 
 ---
+## Screenshot:
+  <img width="593" height="477" alt="extension ss" src="https://github.com/user-attachments/assets/963a24cb-ffd8-4dab-ba62-af653297fbd5" />
+
+---
 
 ## 🛠️ Tech Stack
 
