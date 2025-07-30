@@ -1,73 +1,77 @@
-🧠 AI-S.Mishra Summary for Articles Extension
-A powerful Chrome Extension that summarizes any webpage using Gemini AI and reads it aloud using Text-to-Speech. Equipped with full voice controls — Speak, Pause, Resume, Stop, and Voice Selection (Male/Female).
+# 🧠🔊 AI-S.Mishra Chrome Extension
+---
+> 📖 A powerful **Chrome Extension** that summarizes any webpage using **Gemini AI** and reads it aloud using **Text-to-Speech** and different functionalities.  
+> 🎯 Boosts productivity by turning long articles into quick, spoken summaries.  
 
-🔊 Learn faster. Save time. Just Listen.
-✨ Summarization + Voice = ⚡ Productivity Boost
+---
 
-🌟 Features
-🧾 AI-Powered Summary using Gemini API
+## 🔥 Key Highlights
 
-🗣️ Text-to-Speech (TTS) with Web Speech API
+- 🧾 **AI-Powered Summary** via Gemini API 
+- 🗣️ **TTS (Text-to-Speech)** via Web Speech API
+- ⏯️ Voice Controls: **Speak / Pause / Resume / Stop**
+- 🎙️ **Voice Selection**: Choose Male / Female voice
+- 🎨 Beautiful, minimal & responsive **UI**
+- 📦 **Offline Support** *(if summary already present)*
+- 🧩 Lightweight, Fast & Privacy-friendly
 
-⏯️ Speak / Pause / Resume / Stop controls
+---
 
-🎙️ Voice Selection – Choose from Male/Female voices
+## 🛠️ Tech Stack
 
-🧩 Lightweight & Blazing Fast
+| Tech               | Purpose                          |
+|--------------------|----------------------------------|
+| HTML, CSS, JS      | Core extension structure         |
+| Web Speech API     | Voice narration engine           |
+| Gemini API         | AI-powered summarization         |
+| Chrome Extension API | Browser integration            |
+| Font Awesome       | Clean iconography                |
 
-🎨 Beautiful and Clean UI
+---
 
-📦 Offline support for TTS (if summary already present)
+## 🚀 Installation Guide
 
-🛠️ Tech Stack
-HTML, CSS, JavaScript
+### 🔧 Clone the Repository
 
-Web Speech API
-
-Gemini API 
-
-Chrome Extension APIs
-
-Font Awesome Icons
-
-🚀 How to Install & Use
-Step 1: Clone or Download
+```bash
 git clone https://github.com/YOUR_USERNAME/tts-summary-extension.git
+🔧 Load into Chrome
+- Visit: chrome://extensions/
+- Toggle Developer Mode ON (top-right)
+- Click Load Unpacked
+- Select folder: AI-S.Mishra Summary for Articles/
+✅ Done! You’re ready to use the extension.
 
-Step 2: Load in Chrome
-Open Chrome and visit chrome://extensions/
-Enable Developer Mode (top-right)
-Click Load Unpacked
-Select your folder: AI-S.Mishra Summary for Articles
+🔐 Gemini API Setup
+To enable AI summarization:
+Visit: https://makersuite.google.com/app/apikey
+Copy your Gemini API key
 
-You're all set! ✅
+When prompted by the extension, paste it in
+Securely stored using chrome.storage
 
-🔐 API Key Setup (Gemini)
-To use Gemini-powered summarization:
-
-Go to https://makersuite.google.com/app/apikey
-
-Copy your Gemini API Key
-When prompted in the extension, paste your API Key
-The key is securely stored via chrome.storage and never sent anywhere else
+💡 TTS works without API — summarization is optional.
 
 📁 File Structure
 
 AI-S.Mishra Summary for Articles/
-│
-├── manifest.json        # Chrome Extension Config
-├── popup.html           # Extension UI
-├── popup.js             # TTS + Gemini Logic
-├── popup.css            # Stylish UI
-├── icon.png             # App Icon (Shown in Extensions Toolbar)
-├── icons/               # (Optional) Font Awesome SVGs
-└── README.md            # You're here!
+├── manifest.json         # Chrome Extension Configuration
+├── popup.html            # Extension UI layout
+├── popup.js              # Core logic (TTS + Gemini)
+├── popup.css             # Styling rules
+├── icon.png              # Toolbar icon
+├── icons/                # Font Awesome SVGs
+└── README.md             # This file
 
-📸 Screenshot
-![Uploading Screenshot 2025-07-30 145559.png…]()
+🙌 Want to Contribute?
+You're welcome to:
+⭐ Star this repo
+🍴 Fork it
+🛠️ Create a Pull Request
+🐛 Open issues for bugs or ideas
 
-👤 Author
-Shivam Mishra
+👨‍💻 About the Author
+Made with 👌 by Shivam Mishra
 📧 sm6718858@gmail.com
-🔗 LinkedIn
-💻 Full Stack Developer | AI Enthusiast | Software Engineer
+🔗 LinkedIn: linkedin.com/in/shivam134
+
