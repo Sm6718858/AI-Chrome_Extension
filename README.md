@@ -1,7 +1,7 @@
 # 🧠🔊 AI-S.Mishra Chrome Extension
 ---
 > 📖 A powerful **Chrome Extension** that summarizes any webpage using **Gemini AI** and reads it aloud using **Text-to-Speech** and different functionalities.  
-> 🎯 Boosts productivity by turning long articles into quick, spoken summaries.  
+> 🎯 Boosts productivity by turning long articles into quick, spoken summaries..  
 
 ---
 
